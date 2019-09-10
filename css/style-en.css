@@ -1,0 +1,189 @@
+body{
+    direction: ltr;
+    text-align: left;
+}
+
+.sideNav{
+    left: -100%;
+    right: unset;
+}
+
+.sideNav.open{
+    left: 0%;
+    right: unset;
+}
+
+.sideNav .opt .xtr{
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.sideNav .opt .xtr form.open button{
+    right: 0;
+    left: unset;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+nav .logo {
+    margin-right: auto;
+    margin-left: unset !important;
+}
+
+nav .search .serach-content{
+    left: 200px;
+    right: unset;
+}
+
+nav .links ul li:not(:last-child) {
+    margin-right: 30px;
+    margin-left: unset !important;
+}
+
+@media (min-width: 992px){
+    nav .links ul li a{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px){
+    nav .links ul li a{
+        font-size: 17px;
+    }
+}
+
+nav .search {
+    margin-left: 45px;
+    margin-right: unset;
+}
+
+nav .links.open {
+    transform: translateX(-200px);
+}
+
+nav .search .serach-content.open {
+    left: calc(-200px - -31px);
+    right: unset;
+    z-index: 99;
+}
+
+nav .search .serach-content button{
+    right: 0;
+    left: unset;
+}
+
+.about .rtContent p:first-child,.clients .title > p{
+    padding: 0;
+    padding-left: 20px;
+}
+
+.about .rtContent p:first-child:after,.clients .title > p:after{
+    left: 0;
+    right: unset;
+}
+
+@media (max-width: 360px){
+    .companies .title p{
+        font-size: 16px;
+    }
+}
+
+
+footer .details i {
+    margin-right: 10px;
+    margin-left: unset;
+}
+
+footer .details i.fa-phone{
+    transform: rotate(90deg);
+}
+
+footer .details{
+    margin-left: auto;
+    margin-right: unset;
+}
+
+footer .detail:not(:last-child) {
+    margin-right: 30px;
+    margin-left: unset;
+}
+
+@media (max-width: 991px){
+    footer .details {
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
+
+@media (max-width: 767px){
+    footer .detail:not(:last-child) {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    footer .detail p{
+        margin-bottom: 0;
+    }
+}
+
+.copy .links ul li:not(:last-child) {
+    margin-right: 20px;
+    margin-left: unset;
+}
+
+.copy a img{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+/* About */
+
+.bread p a:not(:last-child) {
+    margin-right: 26px;
+    margin-left: unset;
+}
+
+.bread p a:not(:last-child):after {
+    transform: translateX(13px);
+}
+
+/* About */
+
+/* Careers */
+
+.careers form .field label {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: unset;
+}
+
+.careers form {
+    padding-right: 37px;
+    padding-left: unset;
+}
+
+@media (max-width: 767px){
+    .careers form{
+        padding: 0;
+    }
+}
+
+.careers form button{
+    float: right;
+}
+
+/* Careers */
+
+/* Contact */
+
+.careers .details .deatil .icon {
+    margin-right: 10px;
+    margin-left: unset;
+}
+
+.careers .details .deatil .icon i.fa-phone{
+    transform: rotate(90deg);
+}
+/* Contact */
