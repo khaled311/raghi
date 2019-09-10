@@ -733,7 +733,9 @@ nav {
           margin: auto; } }
       .companies .content .company img {
         -webkit-transition: .5s;
-        transition: .5s; }
+        transition: .5s;
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden; }
       .companies .content .company.bottom {
         margin-top: 20px; }
         @media (max-width: 767px) {
