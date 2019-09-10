@@ -89,7 +89,7 @@ $(function() {
   // Document Animation
   $("header .bottom").on("click", function() {
     $("html, body").animate({
-      scrollTop: $(".main").offset().top
+      scrollTop: $(".main").offset().top - $("nav").innerHeight()
     }, 1000)
   })
 
@@ -158,20 +158,20 @@ try {
   ];
 
   var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 6,
-      center: new google.maps.LatLng(24.75,46.68),
-      mapTypeId: google.maps.MapTypeId.ROADMAP
+    zoom: 6,
+    center: new google.maps.LatLng(24.75,46.68),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 
 
   var marker, i;
 
   for (i = 0; i < locations.length; i++) {
-      marker = new google.maps.Marker({
-          position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-          icon: '../images/pin.png',
-          map: map
-      });
+    marker = new google.maps.Marker({
+      position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+      icon: '../images/pin.png',
+      map: map
+    });
   }
 } catch (error) {
   

@@ -269,7 +269,7 @@ ul.res {
           border-bottom: 1px solid #dedede; }
 
 nav {
-  padding: 30px 0;
+  padding: 20px 0;
   background-color: #FFF;
   position: -webkit-sticky;
   position: sticky;
@@ -277,6 +277,21 @@ nav {
   z-index: 9;
   -webkit-transition: .5s;
   transition: .5s; }
+  nav .container {
+    position: relative; }
+    nav .container .lang {
+      position: absolute;
+      top: -15px;
+      left: 15px;
+      font-size: 14px;
+      color: #bdbdbd;
+      -webkit-transition: .5s;
+      transition: .5s; }
+      nav .container .lang:hover {
+        color: #000; }
+      @media (max-width: 991px) {
+        nav .container .lang {
+          display: none; } }
   @media (max-width: 480px) {
     nav {
       padding: 15px 0; } }

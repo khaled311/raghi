@@ -269,7 +269,7 @@ ul.res {
           border-bottom: 1px solid #dedede; }
 
 nav {
-  padding: 30px 0;
+  padding: 20px 0;
   background-color: #FFF;
   position: -webkit-sticky;
   position: sticky;
@@ -277,6 +277,21 @@ nav {
   z-index: 9;
   -webkit-transition: .5s;
   transition: .5s; }
+  nav .container {
+    position: relative; }
+    nav .container .lang {
+      position: absolute;
+      top: -15px;
+      left: 15px;
+      font-size: 14px;
+      color: #bdbdbd;
+      -webkit-transition: .5s;
+      transition: .5s; }
+      nav .container .lang:hover {
+        color: #000; }
+      @media (max-width: 991px) {
+        nav .container .lang {
+          display: none; } }
   @media (max-width: 480px) {
     nav {
       padding: 15px 0; } }
@@ -603,19 +618,17 @@ nav {
       -webkit-transition: .5s;
       transition: .5s; }
       .careers form button:hover {
-        background-color: #FFF;
-        color: #000;
-        border: 1px solid #e6e8e8; }
+        background-color: rgba(0, 0, 0, 0.6); }
   .careers .details {
     margin-top: 40px; }
     .careers .details .deatil {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin-bottom: 15px; }
+      margin-bottom: 20px; }
       .careers .details .deatil:first-child p:last-child {
         margin-bottom: 0; }
-      .careers .details .deatil:nth-child(2) {
+      .careers .details .deatil:nth-child(2) p:last-child {
         margin-bottom: 0; }
       .careers .details .deatil .icon {
         margin-left: 10px; }
@@ -628,7 +641,8 @@ nav {
         color: #3d3d3d;
         margin-bottom: 10px; }
       .careers .details .deatil p, .careers .details .deatil a {
-        color: #3d3d3d; }
+        color: #3d3d3d;
+        margin-bottom: 5px; }
 
 footer {
   background-color: #000; }
