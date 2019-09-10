@@ -259,12 +259,12 @@ ul.res {
           width: 100%;
           display: block;
           font-size: 16px;
-          color: #b46b93;
+          color: #000;
           line-height: 1.6;
           -webkit-transition: .5s;
           transition: .5s; }
           .sideNav .links .list > li a:hover {
-            color: #000; }
+            color: #919191; }
         .sideNav .links .list > li:not(:last-child) {
           border-bottom: 1px solid #dedede; }
 
@@ -370,10 +370,22 @@ nav {
         color: white;
         -webkit-transition: .5s;
         transition: .5s; }
+        @media (min-width: 992px) {
+          nav .links ul li a {
+            font-size: 15px; } }
+        @media (min-width: 1200px) {
+          nav .links ul li a {
+            font-size: 17px; } }
         nav .links ul li a:hover {
           color: #bdbdbd; }
       nav .links ul li:not(:last-child) {
         margin-left: 30px; }
+        @media (min-width: 992px) {
+          nav .links ul li:not(:last-child) {
+            margin-left: 20px; } }
+        @media (min-width: 1200px) {
+          nav .links ul li:not(:last-child) {
+            margin-left: 30px; } }
   nav .search {
     margin-right: 45px; }
     @media (max-width: 991px) {
