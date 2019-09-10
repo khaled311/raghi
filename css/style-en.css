@@ -72,6 +72,11 @@ nav .search .serach-content button{
     left: unset;
 }
 
+nav .container .lang{
+    right: 15px;
+    left: unset;
+}
+
 .about .rtContent p:first-child,.clients .title > p{
     padding: 0;
     padding-left: 20px;
