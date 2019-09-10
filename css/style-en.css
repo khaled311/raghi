@@ -62,7 +62,7 @@ nav .links.open {
 }
 
 nav .search .serach-content.open {
-    left: calc(-200px - -31px);
+    left: calc(-350px - -31px);
     right: unset;
     z-index: 99;
 }
