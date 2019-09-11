@@ -317,7 +317,8 @@ nav {
   nav.scroll {
     padding: 20px 0 15px;
     margin-top: 0;
-    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
