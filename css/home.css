@@ -735,7 +735,11 @@ nav {
         -webkit-transition: .5s;
         transition: .5s;
         -webkit-backface-visibility: hidden;
-                backface-visibility: hidden; }
+                backface-visibility: hidden;
+        /* IE 9 */
+        -webkit-transform: translateZ(0);
+        /* Chrome, Safari, Opera */
+        transform: translateZ(0); }
       .companies .content .company.bottom {
         margin-top: 20px; }
         @media (max-width: 767px) {
