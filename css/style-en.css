@@ -79,8 +79,14 @@ nav .container .lang{
 
 .about .rtContent p:first-child,.clients .title > p{
     padding: 0;
-    padding-left: 10px;
-    font-size: 18px;
+    padding-left: 20px;
+}
+
+@media (max-width: 480){
+    .about .rtContent p:first-child,.clients .title > p{
+        padding-left: 10px;
+        font-size: 18px;
+    }
 }
 
 .about .rtContent p:first-child:after,.clients .title > p:after{
