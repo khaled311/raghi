@@ -798,9 +798,6 @@ nav {
       position: relative;
       color: #000;
       line-height: 1.2; }
-      @media (max-width: 375px) {
-        .clients .title > p {
-          font-size: 25px; } }
       .clients .title > p:after {
         content: "";
         position: absolute;

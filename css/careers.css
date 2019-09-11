@@ -638,6 +638,9 @@ nav {
       transition: .5s; }
       .careers form button:hover {
         background-color: rgba(0, 0, 0, 0.6); }
+      @media (max-width: 480px) {
+        .careers form button {
+          width: 100%; } }
   .careers .image {
     padding-top: 35px; }
     @media (max-width: 991px) {
