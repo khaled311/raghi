@@ -183,7 +183,7 @@ try {
     var ypos = window.pageYOffset,
     img = document.querySelector("header > img");
     if(img){
-      img.style.top = (ypos * 0.3) + "px";
+      img.style.top = (ypos * 0.8) + "px";
     }
   });
 } catch (error) {
